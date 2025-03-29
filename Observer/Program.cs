@@ -20,6 +20,7 @@ class Program
 
 record WeatherData(int temp, int humidity, string name);
 
+
 class Phone : IObserver<WeatherData>
 {
     private readonly IDisposable unsubscribe;
@@ -91,6 +92,7 @@ class WeatherProcessor : IObservable<WeatherData>
         Observers.Add(observer);
         return new Unsubscriber(Observers, observer);
     }
+
 
     private class Unsubscriber : IDisposable
     {
