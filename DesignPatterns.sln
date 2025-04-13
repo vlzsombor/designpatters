@@ -24,6 +24,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{D0E5427E-7381-47DE-B660-978F2D3FD341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{267D099B-572B-401E-A93F-E2376ED47DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command2", "Command2\Command2.csproj", "{E850DCE8-77C7-4A94-BCD5-7ACF8C413D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{871B25AC-A0A5-49A7-9B7A-F492FA1BA20F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +80,18 @@ Global
 		{D0E5427E-7381-47DE-B660-978F2D3FD341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E5427E-7381-47DE-B660-978F2D3FD341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E5427E-7381-47DE-B660-978F2D3FD341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267D099B-572B-401E-A93F-E2376ED47DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267D099B-572B-401E-A93F-E2376ED47DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267D099B-572B-401E-A93F-E2376ED47DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267D099B-572B-401E-A93F-E2376ED47DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E850DCE8-77C7-4A94-BCD5-7ACF8C413D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E850DCE8-77C7-4A94-BCD5-7ACF8C413D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E850DCE8-77C7-4A94-BCD5-7ACF8C413D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E850DCE8-77C7-4A94-BCD5-7ACF8C413D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871B25AC-A0A5-49A7-9B7A-F492FA1BA20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871B25AC-A0A5-49A7-9B7A-F492FA1BA20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871B25AC-A0A5-49A7-9B7A-F492FA1BA20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871B25AC-A0A5-49A7-9B7A-F492FA1BA20F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0E140BAD-58CB-45B0-8C0F-2D5FEBB1B666} = {F7A61B16-4182-48D1-B2CD-6F4DF8791DEE}

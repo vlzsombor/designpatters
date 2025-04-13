@@ -7,12 +7,32 @@ public class Tests
     {
     }
 
+    private string aaaa;
+
+    public Tests()
+    {
+        aaaa = "helloworld";
+    }
+    List<string> list = new List<string>
+    {
+        "zsombor", "b", "c"
+    };
+    
     [Test]
     public void Test1()
     {
-        int[] array = { 1, 2, 3 };
 
-        Assert.True(array.Length == 2);
+        var list = new List<string>
+        {
+            "a", "b", "c"
+        };
+
+        
+
+        foreach (var variable in list)
+        {
+            Console.WriteLine(variable);
+        }
     }
     
     
